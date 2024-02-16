@@ -1,0 +1,180 @@
+design.css <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+
+.container-nav {
+    padding: 95px 0;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+    border-radius: 80px;
+}
+
+.navgbar {
+    background:bisque;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px;
+    border-radius: 20px;
+    margin-top: -80px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    color: #555;
+}
+
+nav ul li:hover {
+    background-color: orange;
+    border-radius: 10%;
+    padding: 3px;
+    transition: 0.09s;
+}
+
+/* Body */
+
+.header {
+    background: #fff6b6;
+    border-radius: 20px;
+    padding: 1px 0 -100px;
+}
+
+/* signup signin */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbf09b;
+    padding: 50px 20px 70px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+
+}
+
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-field {
+    background: #f9e233;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i {
+    margin-left: 15px;
+    color: #3c00a0;
+}
+
+form p {
+    text-align: center;
+    font-size: 13px;
+    padding: 20px;
+}
+
+form p a {
+    text-decoration: none;
+    color: #250953;
+}
+
+.btn-field {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: -100px 0 25px;
+}
+
+.btn-field button {
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    transition: background 1s;
+}
+
+.input-group {
+    height: 280px;
+}
+
+.btn-field button.disable {
+    background: #eaeaea;
+    color: #555;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup-style.css">
+    <title>Signup-Gyan Sangam</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="container-nav">
+            <div class="navgbar">
+                <div class="logo">
+                    <a href="index.html"><img src="image/pic.jpg" width="150px"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="staff.html">Staff</a></li>
+                        <li><a href="notice.html">Notice</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                        <li>
+                            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="container">
+                <div class="form-box">
+                    <h1 id="title">Sign up</h1>
+                    <form>
+                        <div class="input-group">
+                            <div class="input-field" id="namefield">
+                                <i class="fa-regular fa-user"></i>
+                                <input type="text" placeholder="name">
+                            </div>
+        
+                            <div class="input-field">
+                                <i class="fa-regular fa-envelope"></i>
+                                <input type="email" placeholder="email">
+                            </div>
+        
+                            <div class="input-field">
+                                <i class="fa-solid fa-lock"></i>
+                                <input type="password" placeholder="password">
+                            </div>
+                            <p>Lost Password? <a href="#">Click here!</a></p>
+                        </div>
+                        <div class="btn-field">
+                            <button type="button" id="signupbtn">Sign up</button>
+                            <button type="button" class="disable" id="signinbtn">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        let signupbtn = document.getElementById("signupbtn");
+        let signinbtn = document.getElementById("signinbtn");
+        let namefield = document.getElementById("namefield");
+        let title = document.getElementById("title");
+
+        signinbtn.onclick = function () {
+            namefield.style.maxHeight = "0";
+            title.innerHTML = "Sign In";
+            signupbtn.classList.add("disable");
+            signinbtn.classList.remove("disable");
+        }
+
+        signupbtn.onclick = function () {
+            namefield.style.maxHeight = "60px";
+            title.innerHTML = "Sign Up";
+            signupbtn.classList.remove("disable");
+            signinbtn.classList.add("disable");
+        }
+
+    </script>
+</html>
