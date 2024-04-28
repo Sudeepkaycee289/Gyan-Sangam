@@ -1,0 +1,99 @@
+body{
+    background-color: beige;
+}
+
+/* Navbar */
+.container {
+    padding: 65px 0;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navgbar {
+    background:bisque;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px;
+    border-radius: 20px;
+    margin-top: -60px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.logo{
+    padding-left: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    color: #555;
+}
+
+nav ul li:hover {
+    background-color: orange;
+    border-radius: 10%;
+    padding: 3px;
+    transition: 0.09s;
+}
+
+
+
+/* Staff css */
+
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+    color: white;
+    background-color: orange;
+}
+
+.col-1{
+    padding: 20px 50px 0px 20px;
+}
+
+.col-2{
+    padding: 20px 50px 0px 20px;
+}

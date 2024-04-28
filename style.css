@@ -24,7 +24,7 @@ body {
     align-items: center;
     padding: 20px 0 20px;
     border-radius: 20px;
-    margin-top: -60px;
+    margin-top: 0px;
 }
 
 nav {
@@ -117,6 +117,7 @@ nav ul li:hover {
 
 .header {
     background: #fff6b6;
+    border-radius: 15px;
 }
 
 .header row {
@@ -124,8 +125,8 @@ nav ul li:hover {
 }
 
 /* Categories */
-
-.categories {
+/* 
+.Books {
     padding: 80px  0;
     margin: 70px 0;
 }
@@ -147,18 +148,62 @@ nav ul li:hover {
     padding-right: 25px;
 }
 
-.small-cont2 {
-    background: radial-gradient(#dff, #fff6b6);
-}
-
 .col-3 img:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
 
 
-/* Footer */
+.Categories{
+    padding: 95px;
+    max-width: 1300px;
+    margin: auto;
+    padding: 25px;
+    background-color:#000000;
+    border-radius: 15px;
+} */
 
+
+/* categories Navigator bar */
+
+.navgbar_categories{
+    width: 800px;
+    background: bisque;
+    display: flex;
+    padding: 12px 55px 12px;
+    border-radius: 24px;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+nava {
+    flex: 1;
+    text-align: right;
+}
+
+nava ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nava ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+nava ul li:hover {
+    background-color: orange;
+    border-radius: 10%;
+    padding: 3px;
+    transition: 0.09s;
+}
+
+
+
+
+/* Footer */
+/* 
 .footer {
     background:black;
     color: #8a8a8a;
@@ -206,4 +251,23 @@ ul {
 
 .copyright {
     text-align: center;
+} */
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.book {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }

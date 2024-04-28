@@ -14,25 +14,26 @@
 
 <body>
     <div class="header">
-        <div class="container">
-            <div class="navgbar">
-                <div class="logo">
-                    <a href="index.html"><img src="image/pic.jpg" width="150px"></a>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="staff.html">Staff</a></li>
-                        <li><a href="notice.html">Notice</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="login.html">Account</a></li>
-                        <li>
-                            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
-                        </li>
-                    </ul>
-                </nav>
-
+        <div class="navgbar">
+            <div class="logo">
+                <a href="index.html"><img src="image/pic.jpg" width="150px"></a>
             </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="staff.html">Staff</a></li>
+                    <li><a href="notice.html">Notice</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Account</a></li>
+                    <li>
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+
+
             <div class="row">
                 <div class="col-2">
                     <h1>Study smart, not hard.</h1>
@@ -43,7 +44,7 @@
                     <a href="notice.html" class="btn"> Notice <i class="fa-solid fa-hand-point-right"></i></a>
                 </div>
                 <div class="col-2">
-                    <h4></h4>
+                    <h4>Sudip kc</h4>
                 </div>
 
             </div>
@@ -51,27 +52,73 @@
     </div>
 
 
-            <!-- categories -->
+        <!-- categories Navigator bar -->
 
-    <div class="categories">
-        <div class="small-cont">
-            <div class="row">
-                <div class="col-3">
-                    <img src="image/100 Marketing PoW Ideas.jpg">
+        <div class="navgbar_categories">
+            <div class="logo">
+                <a href="index.html"><img src="image/pic.jpg" width="150px"></a>
+            </div>
+            <nava>
+                <ul>
+                    <li><a href="">Read now</a></li>
+                    <li><a href="">Buy now</a></li>
+                    <li><a href="">Bookmarks</a></li>
+                </ul>
+        </nava>
+        </div>
+
+<!-- Categories Books -->
+<!-- 
+        <div class="categories">
+            <div class="books" id="books">
+
+            </div>
+        </div> -->
+
+
+
+        <div class="container" id="bookContainer">
+            <!-- Books will be dynamically added here -->
+        </div>
+        <form id="addBookForm">
+            <label for="coverUrl">Cover Image URL:</label>
+            <input type="image" id="coverUrl" required><br>
+            
+            <label for="title">Title:</label>
+            <input type="text" id="title" required><br>
+            
+            <label for="author">Author:</label>
+            <input type="text" id="author" required><br>
+            
+            <label for="published">Published Date:</label>
+            <input type="text" id="published" required><br>
+            
+            <button type="submit">Add Book</button>
+        </form>
+
+
+
+    <!-- <div class="Categories">
+
+        <div class="books">
+            <div class="small-cont">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="image/100 Marketing PoW Ideas.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="image/100 Marketing PoW Ideas123.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="image/Front-End Roadmap.jpg">
+                    </div>
+                    <br>
                 </div>
-                <div class="col-3">
-                    <img src="image/100 Marketing PoW Ideas123.jpg">
-                </div>
-                <div class="col-3">
-                    <img src="image/Front-End Roadmap.jpg">
-                </div>
-                <br>
             </div>
         </div>
-    </div>
+    </div> -->
 
-
-    <!------footer----->
+    <!-- ----footer---
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -100,12 +147,12 @@
     </div>
     </div>
 
-
+ -->
 
 
 
 
 
 </body>
-
+    <script src=""></script>
 </html>

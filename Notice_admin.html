@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice</title>
+    <link rel="stylesheet" href="Notice_admin.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="container">
+        <div class="navgbar">
+            <div class="logo">
+                <a href="index.html"><img src="image/pic.jpg" width="150px"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="staff.html">Staff</a></li>
+                    <li><a href="notice.html">Notice</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Account</a></li>
+                    <li>
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Notice -->
+    <h1>Notice Board</h1>
+    <!-- <div class="classBoard">
+
+    </div> -->
+    <div id="noticeBoard" class="noticeBoard" >
+
+    </div>
+
+
+        <!-- Add form -->
+    <button onclick="openPopup()" id="openFormButton" class="Open_form">Open Form</button>
+
+    <div id="formContainer" class="formContainer hidden">
+        <h2>Enter Title and Notice</h2>
+        <form id="noteForm" >
+            <input type="text" id="titleInput" placeholder="Title" required>
+            <textarea id="noteInput" placeholder="Notice" required></textarea>
+            <button type="submit" id="submitFormButton" class="Open_form">Submit</button>
+            <button id="closeFormButton" class="Open_form">Cancel</button>
+        </form>
+    </div>
+
+
+</body>
+
+
+<script src="Notice_admin.js"></script>
+</html>

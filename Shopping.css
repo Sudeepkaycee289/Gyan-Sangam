@@ -1,0 +1,78 @@
+/* Header */
+
+.container {
+    padding: 95px 0;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navgbar {
+    background:bisque;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    color: #555;
+}
+
+nav ul li:hover {
+    background-color: orange;
+    border-radius: 10%;
+    padding: 3px;
+    transition: 0.09s;
+}
+
+/* Shopping Lists */
+
+.container {
+    max-width: 950px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    background-color: #fff6b6;
+    border-radius: 20px;
+}
+
+.book {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #e0cd3f;
+}
+
+.book img{
+    height: 11vh;
+    width: 10vh;
+}

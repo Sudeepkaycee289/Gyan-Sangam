@@ -1,0 +1,201 @@
+body{
+    background-color: #fff6b6;
+}
+
+/* Navbar */
+.container {
+    padding: 65px 0 35px;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: -47px;
+}
+
+.navgbar {
+    background:bisque;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px;
+    border-radius: 20px;
+    margin-top: -60px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.logo{
+    padding-left: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    color: #555;
+}
+
+nav ul li:hover {
+    background-color: orange;
+    border-radius: 10%;
+    padding: 3px;
+    transition: 0.09s;
+}
+
+/* Notice CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1:hover {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+
+.noticeBoard {
+    height: 393px;
+    width: 815px;
+    margin: 35px auto;
+    background-color: #ffe776;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 20px 20px 30px;
+    overflow: auto;
+}
+
+.noticeBoard::-webkit-scrollbar{
+    width: 10px;
+}
+
+.noticeBoard::-webkit-scrollbar-track{
+    background: wheat;
+}
+
+.noticeBoard::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.noticeBoard::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+p {
+    color: #333;
+}
+
+/* Add Button */
+.formContainer{
+    /* display: none; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #e3c53f;
+    border: 1px solid GREY;
+    z-index: 1000;
+    display: inline-block;
+}
+
+.Open_form{
+    display: block;
+    padding: 5px 10px 5px;
+    margin: auto;
+    background-color: transparent;
+    color: #555;
+    text-align: center;
+    text-decoration: none;
+    border: #ffe776;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgroound-color 0.3s;
+}
+
+.Open_form:hover{
+    background-color: orange;
+}
+
+.hidden {
+    display: none;
+}
+
+/* CSS for H2 tag */
+
+h2{
+    padding: 10px;
+    margin: 5px 0;
+    width: 98%;
+    box-sizing: inherit;
+    border: none;
+    text-align: center;
+    color: #555;
+}
+
+/* CSS code for input type text */
+input {
+    padding: 10px 0px 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+  /* CSS code for textarea */
+textarea {
+    padding: 10px;
+    margin: 5px 0;
+    height: 115px;
+    width: 805px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* CSS code
+.note {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.note h3 {
+    margin-top: 0;
+}
+
+.note p {
+    margin-bottom: 0;
+} */
